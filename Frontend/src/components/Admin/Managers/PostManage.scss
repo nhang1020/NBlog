@@ -1,0 +1,7 @@
+p.content-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    /* Số dòng tối đa */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}

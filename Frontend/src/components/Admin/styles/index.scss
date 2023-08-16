@@ -1,0 +1,42 @@
+.contain-admin {
+    display: flex;
+
+    .menu {
+        width: 15%;
+        background: #fff;
+        box-shadow: 2px 0px 10px #e8e7e7;
+        height: 100vh;
+
+        .nav-link {
+            display: flex;
+            padding: 1rem 2rem;
+            margin: 10px;
+            // box-shadow: 2px 3px 7px #d6d6d6;
+        }
+
+        .active {
+            color: rgb(254, 254, 254);
+            font-weight: 600;
+            border: 6px solid rgba(255, 255, 255, 0.7);
+            background: linear-gradient(90deg, #232a66, #5c1f5f, #621313);
+            box-shadow: 1px 2px 20px #c588bd;
+        }
+    }
+
+    .content {
+        height: 100vh;
+        padding-top: 2rem;
+        width: 85%;
+        overflow-y: scroll;
+    }
+}
+
+@import url("https://fonts.cdnfonts.com/css/museo-sans-rounded");
+
+.admin {
+    font-weight: bold;
+    font-family: 'Museo Sans Rounded', sans-serif;
+    background: -webkit-linear-gradient(0deg, #30426f, #eb96f6, #821e3c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

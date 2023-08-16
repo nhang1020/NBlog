@@ -1,0 +1,301 @@
+$font-family_1: Inter, sans-serif;
+$background-color_1: #dee1e7;
+
+@import "https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+$color_1: #b1b1b1;
+$color_2: white;
+$color_3: #737375;
+$color_4: #ababab;
+$color_5: #949494;
+$background-color_1: #9e9e9e;
+$background-color_2: black;
+$background-color_3: #1977f2;
+$background-color_4: #d2d2d2;
+$background-color_5: #0266ff;
+$background-color_6: white;
+$background-color_7: #f0eff2;
+$background-color_8: #949494;
+
+.container-custom {
+    width: 1000px;
+    height: 700px;
+    margin: 65px auto;
+    background-color: $background-color_6;
+    transition: 0.5s;
+    border-radius: 50px;
+    box-shadow: 0 0 15px rgb(219, 218, 218);
+
+    .social {
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 12px;
+        cursor: pointer;
+
+        &:last-child {
+            margin-right: 0px;
+        }
+
+        svg {
+            fill: white;
+        }
+    }
+
+    .google {
+        background-color: $background-color_1;
+    }
+
+    .apple {
+        background-color: $background-color_2;
+    }
+
+    .facebook {
+        background-color: $background-color_3;
+    }
+
+    .with-social {
+        display: flex;
+        align-items: center;
+        margin: auto;
+        width: 174px;
+        margin-top: 20px;
+        justify-content: center;
+    }
+
+    .paragraph-description {
+        font-size: 0.7rem;
+        margin: 0 38px;
+        color: $color_1;
+        position: absolute;
+        bottom: 30px;
+    }
+
+    .be-main {
+        width: 0.5px;
+        height: 28px;
+        background-color: $background-color_4;
+        margin-left: 10px;
+    }
+
+    .input {
+        width: 100%;
+        border: none;
+        outline: none;
+
+        &:focus~label {
+            font-size: 0.5rem;
+            top: -11px;
+        }
+
+        &:valid~label {
+            font-size: 0.5rem;
+            top: -11px;
+        }
+    }
+
+    .icon-email {
+        width: 15px;
+        height: 15px;
+    }
+
+    .icon-continue {
+        fill: #2abe88;
+        width: 15px;
+        height: 15px;
+    }
+
+    .input-box {
+        label {
+            position: absolute;
+            text-align: left;
+            font-size: 0.5rem;
+            pointer-events: none;
+            transition: 0.5s;
+            font-size: 0.8rem;
+            top: 2px;
+            left: 0;
+        }
+
+        padding-top: 30px;
+        margin: auto !important;
+        width: 250px;
+        margin: 0 10px;
+        position: relative;
+    }
+
+    .continue {
+        border: none;
+        box-shadow: 0 0 10px rgb(217, 217, 217);
+        width: 330px;
+        height: 45px;
+        border-radius: 11px;
+        font-size: 13px;
+        margin-top: 15px;
+        cursor: pointer;
+        background-image: linear-gradient(to right, #29323c, #415264, #215375, #3f3076);
+        moz-transition: all .4s ease-in-out;
+        -o-transition: all .4s ease-in-out;
+        -webkit-transition: all .4s ease-in-out;
+        transition: all .4s ease-in-out;
+        background-size: 300% 100%;
+        color: #fff;
+
+        &:hover {
+            background-position: 100% 0;
+            moz-transition: all .4s ease-in-out;
+            -o-transition: all .4s ease-in-out;
+            -webkit-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out;
+            color: #fff;
+        }
+    }
+
+    .input-main {
+        width: 330px;
+        height: auto;
+        margin: auto;
+        margin-top: 20px;
+        border: 1px solid #d3d3d3;
+        border-radius: 11px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: auto;
+    }
+
+    .btn-switch {
+        height: 37px;
+        width: 159px;
+        border-radius: 11px;
+        line-height: 37px;
+        font-weight: 500;
+        font-size: 12px;
+        margin-right: 4px;
+    }
+
+    .signin {
+        float: left;
+        cursor: pointer;
+        text-decoration: none;
+        color: black;
+
+        &.active {
+            background-color: $background-color_6;
+        }
+    }
+
+
+
+    .switch-details {
+        border-radius: 11px;
+        width: 330px;
+        height: 45px;
+        padding: 4px;
+        padding-right: 0;
+        margin: auto;
+        margin-top: 20px;
+        background-color: $background-color_7;
+    }
+
+    .login-main {
+        p {
+            font-size: 0.8rem;
+            margin-top: 10px;
+            color: $color_4;
+        }
+
+        h1 {
+            font-size: 1.5rem;
+        }
+    }
+
+
+    .detalis-main {
+        text-align: center;
+        float: left;
+        width: 50%;
+        height: 100%;
+        position: relative;
+    }
+
+    .logo {
+        width: 155px;
+        height: auto;
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+
+    .money-locker {
+        float: right;
+        width: 50%;
+        height: 100%;
+        object-fit: cover;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+    }
+
+    .title-social {
+        color: $color_5;
+        font-size: 0.8rem;
+        margin-top: 15px;
+        display: flex;
+        width: 310px;
+        margin: auto;
+        margin-top: 18px;
+        align-items: center;
+
+        &::before {
+            content: "";
+            display: block;
+            width: 90px;
+            height: 0.5px;
+            background-color: $background-color_8;
+            margin-right: 13px;
+        }
+
+        &::after {
+            content: "";
+            display: block;
+            width: 90px;
+            height: 0.5px;
+            background-color: $background-color_8;
+            margin-left: 13px;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 1020px) {
+    .money-locker {
+        display: none;
+    }
+
+    .container-custom {
+        display: flex;
+        width: 500px;
+        align-items: center;
+        justify-content: center;
+
+        .detalis-main {
+            width: auto;
+        }
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .container-custom {
+        width: 100%;
+    }
+}

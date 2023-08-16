@@ -1,0 +1,85 @@
+$color_1: #eee;
+$font-family_1: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+
+
+.container-clock {
+    height: 110px;
+    // background: #ff6613;
+    // background: -webkit-linear-gradient(5deg, #ffaaaa, #e7a6ff, #94d4ff, #94f8ff);
+    box-shadow: 0 2px 7px rgb(216, 216, 216);
+    padding: 0.8rem 2.5rem 0.8rem 0.8rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    transition: 0.2s ease;
+    transform-origin: top;
+    justify-content: center;
+    max-width: 350px;
+    margin: 30px 30px auto auto;
+}
+
+.time-cus {
+    position: relative;
+    background: rgb(245, 245, 245);
+    border-radius: 10px;
+    padding: 0 20px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.1);
+    min-width: 190px;
+
+    h1 {
+        position: relative;
+        font-size: 4.5rem;
+        z-index: 99;
+        background: -webkit-linear-gradient(90deg, #7e3043, #865996, #325781, #2f5964);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        // color: rgb(156, 156, 156);
+    }
+}
+
+.second {
+    position: absolute;
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    padding: 2px;
+    opacity: 0.1;
+}
+
+.days {
+    font-size: 1.6rem;
+    min-width: 100px;
+    margin-top: 18px;
+
+    ul {
+        list-style: none !important;
+        text-align: center;
+        background: -webkit-linear-gradient(0deg, #ff9b9b, #de79ed, #6badf9, #7cdbe8);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: 600;
+        font-size: 16px;
+
+        li {
+            &:nth-child(1) {
+                max-height: 1px;
+            }
+
+            &:nth-child(2) {
+                margin-top: 13px;
+                font-size: 32px;
+                background: -webkit-linear-gradient(#ffadad, #f6baff, #99c9ff, #99f3ff);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+        }
+    }
+}

@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+.contain-not-found {
+    .not-found {
+        background: url('https://assets.materialup.com/uploads/c59dbe42-a767-4d04-baed-bfcaaf8acaa9/attachment.gif');
+        height: 500px;
+        width: 100%;
+        display: flex;
+        margin: auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        border: none;
+        width: 330px;
+        height: 65px;
+        border-radius: 65px;
+        font-size: 13px;
+        margin-top: 15px;
+        cursor: pointer;
+        moz-transition: all .4s ease-in-out;
+        -o-transition: all .4s ease-in-out;
+        -webkit-transition: all .4s ease-in-out;
+        transition: all .4s ease-in-out;
+        background-size: 300% 100%;
+        color: #fff;
+        background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
+        box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+
+        font-size: 15pt;
+
+        i {
+            margin-right: 1rem;
+        }
+
+        &:hover {
+            background-position: 100% 0;
+            moz-transition: all .4s ease-in-out;
+            -o-transition: all .4s ease-in-out;
+            -webkit-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out;
+            color: #fff;
+        }
+    }
+
+
+    section {
+        font-family: 'Poppins', sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 3rem;
+
+        .content {
+            margin: auto;
+
+            h2 {
+                display: flex;
+                justify-content: center;
+                width: auto;
+                min-width: 400px;
+                color: #fff;
+                font-size: 30pt;
+                position: absolute;
+                transform: translate(-50%, -50%);
+            }
+        }
+
+        .content h2:nth-child(1) {
+            color: transparent;
+            -webkit-text-stroke: 1px #4d2783;
+        }
+
+        .content h2:nth-child(2) {
+            background: -webkit-linear-gradient(0deg, #2f6aff, #e0a6ff, #ff2c2c);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: animate 4s ease-in-out infinite;
+        }
+
+        @keyframes animate {
+
+            0%,
+            100% {
+                clip-path: polygon(0% 45%,
+                        16% 44%,
+                        33% 50%,
+                        54% 60%,
+                        70% 61%,
+                        84% 59%,
+                        100% 52%,
+                        100% 100%,
+                        0% 100%);
+            }
+
+            50% {
+                clip-path: polygon(0% 60%,
+                        15% 65%,
+                        34% 66%,
+                        51% 62%,
+                        67% 50%,
+                        84% 45%,
+                        100% 46%,
+                        100% 100%,
+                        0% 100%);
+            }
+        }
+    }
+
+}

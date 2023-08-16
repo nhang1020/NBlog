@@ -1,0 +1,203 @@
+.action-buton {
+    display: flex;
+
+    .border-0 {
+        width: 46%;
+        margin: 0 2%;
+        font-size: 18pt;
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        // &:active {
+        //     color: rgb(0, 140, 255);
+
+        //     .like {
+        //         transition: all ease-out 1s;
+        //         transform: rotate(-360deg);
+        //         font-size: 90pt;
+        //     }
+        // }
+        i {
+            background: -webkit-linear-gradient(0deg, #6e7afb, #f34c7e);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        p {
+            font-size: 13pt;
+            display: flex;
+            align-items: center;
+            margin: 10px;
+        }
+
+        &:hover {
+            background-color: whitesmoke;
+        }
+    }
+}
+
+hr {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.1), #2c12d4, #d724b9, #e74276, rgba(0, 0, 0, 0.1));
+    height: 2px;
+    color: transparent;
+}
+
+
+.cmt {
+    font-size: 13pt;
+    width: 100%;
+    transition: all ease-in-out 0.3s;
+    height: 100%;
+
+    .form-comment {
+        display: flex;
+        width: 100%;
+        height: 10%;
+        min-height: 2rem;
+        align-items: center;
+
+        .send {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: large;
+            border-radius: 25px;
+            background-color: white;
+        }
+
+        input {
+            box-shadow: 0 1px 4px rgb(209, 207, 207);
+            border-radius: 25px;
+        }
+    }
+
+    ::-webkit-scrollbar {
+        width: 7px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background-color: transparent;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: rgba(80, 80, 80, 0.5);
+        border-radius: 5px;
+    }
+
+    .comment-content {
+        height: 90%;
+        // overflow-y: scroll;
+        overflow-y: scroll;
+
+
+        .flex-heder {
+            display: flex;
+            width: 95%;
+
+            .info {
+                display: flex;
+
+                .nav-link {
+                    margin-top: -3px;
+                    font-size: 15px;
+                    font-weight: bold;
+                    background: -webkit-linear-gradient(0deg, #351dd1, #d724b9, #e74276);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+
+                    &:hover {
+                        opacity: 0.7;
+                    }
+                }
+
+                .bi-patch-check-fill {
+                    margin-top: -1px !important;
+                    font-size: 10pt;
+                }
+            }
+
+            .avatar {
+                margin-right: 5px;
+                width: 6%;
+                min-width: 2.5rem;
+
+                &:hover {
+                    opacity: 0.7;
+                }
+            }
+
+            .time {
+                color: gray;
+                font-size: 12px;
+            }
+        }
+
+        .contents {
+            margin-top: -10px;
+            border-radius: 15px;
+            background-color: whitesmoke;
+            width: auto;
+            padding: 10px;
+            max-width: 100%;
+            font-size: 11pt;
+
+            p {
+                margin-bottom: 0;
+            }
+
+            label {
+                font-weight: 600;
+                font-size: 10pt;
+            }
+
+        }
+
+        .child-comment {
+            margin-left: 3rem;
+            font-size: small;
+
+            .contents {
+                p {
+                    margin-bottom: 0;
+                }
+
+                label {
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}
+
+
+.ant-drawer-content-wrapper {
+    height: 70% !important;
+    width: 42%;
+    margin-left: 31%;
+    margin-bottom: 5% !important;
+
+    .ant-drawer-content {
+        border-radius: 10px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+
+
+    .ant-drawer-content-wrapper {
+        height: 80% !important;
+        width: 70%;
+        margin: auto;
+    }
+
+}
+
+@media only screen and (max-width: 700px) {
+    .ant-drawer-content-wrapper {
+        width: 90%;
+        margin-bottom: 5%;
+    }
+
+}

@@ -1,0 +1,65 @@
+.mid-content {
+    h5 {
+        margin-left: 1rem;
+    }
+
+    .list-users {
+        .card-users {
+            display: flex !important;
+            justify-content: center !important;
+            align-items: center;
+            box-shadow: 1px 2px 5px #eeeeee;
+            font-size: 12pt;
+
+            .nav-link {
+                display: inline !important;
+            }
+
+
+            .btn-follow {
+                position: absolute;
+                width: auto;
+                right: 20px;
+                font-weight: 700;
+                border: none;
+                box-shadow: 0px 1px 4px rgb(215, 215, 215);
+                border-radius: 25px;
+            }
+
+            .followed {
+                background: -webkit-linear-gradient(0deg, #0074e7, #d388fc, #f44b4b);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+
+            .non-follow {
+                background: linear-gradient(0.25turn, rgb(253, 183, 202), rgb(199, 172, 255), rgb(164, 190, 255), rgba(137, 206, 251, 0.7));
+
+                span {
+                    color: #fff !important;
+                }
+            }
+        }
+
+    }
+
+    .list-users,
+    .list-posts {
+        b {
+            color: gray;
+            margin-left: 1rem;
+            justify-content: center;
+        }
+
+        .shadow-1 {
+            width: 98%;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            height: 3rem;
+            align-items: center;
+            font-size: 12pt;
+            font-weight: 600;
+        }
+    }
+}

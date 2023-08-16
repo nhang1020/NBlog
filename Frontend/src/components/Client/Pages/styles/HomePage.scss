@@ -1,0 +1,280 @@
+button.ant-btn.css-dev-only-do-not-override-12upa3x.ant-btn-primary.ant-btn-sm,
+button.ant-btn.css-dev-only-do-not-override-12upa3x.ant-btn-default.ant-btn-sm {
+    font-size: 10pt;
+    padding: 5px;
+    width: 70px;
+    height: auto;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 1px 2px 6px #cbcaca;
+}
+
+button.ant-btn.css-dev-only-do-not-override-12upa3x.ant-btn-primary.ant-btn-sm {
+    background: linear-gradient(0.25turn, rgb(254, 154, 154), rgb(203, 180, 251), rgb(168, 191, 250), rgb(161, 218, 255));
+}
+
+.card-custom {
+    box-shadow: 1px 2px 5px rgb(221, 221, 221);
+    border: 2px solid white;
+    transition: all ease-in-out 0.3s;
+
+
+    .card-header {
+        display: flex;
+
+        .flex-heder {
+            display: flex;
+            width: 95%;
+
+            .text {
+                .nav-link {
+                    margin-top: -3px;
+                    font-size: 15px;
+                    font-weight: bold;
+                    background: -webkit-linear-gradient(0deg, #351dd1, #d724b9, #e74276);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+
+                    &:hover {
+                        opacity: 0.7;
+                    }
+                }
+
+                .time {
+                    color: gray;
+                    font-size: 12px;
+                }
+            }
+
+            .bi-patch-check-fill {
+                margin-top: -1px !important;
+            }
+
+            .avatar {
+                margin-right: 5px;
+                width: 6%;
+                min-width: 2.5rem;
+
+                &:hover {
+                    opacity: 0.7;
+                }
+            }
+        }
+
+        .more {
+            width: 5%;
+
+            .border-0 {
+                display: flex;
+                justify-content: center;
+                width: 100%;
+                font-size: 18pt;
+                align-items: center;
+
+                i {
+                    background: -webkit-linear-gradient(90deg, #5986f7, #eb96f6, #fd3a74);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                }
+            }
+        }
+    }
+
+
+
+    .card-body {
+        display: flex;
+        border-radius: 10px;
+
+        p {
+            display: -webkit-box;
+            -webkit-line-clamp: 5;
+            /* Số dòng tối đa */
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+    }
+
+    .theme-danger {
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(0deg, rgb(225, 82, 115), rgb(186, 39, 95));
+        color: white;
+
+        &::placeholder {
+            color: #fff;
+            opacity: 0.7;
+        }
+
+        text-align: center;
+        padding: 3rem;
+        font-weight: 700;
+        font-size: 18pt;
+    }
+
+    .theme-warning {
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(0deg, rgb(242, 248, 119), rgb(237, 233, 15));
+        color: rgb(44, 44, 44);
+
+        &::placeholder {
+            color: #7e7e7e;
+            opacity: 0.7;
+        }
+
+        text-align: center;
+        padding: 3rem;
+        font-weight: 700;
+        font-size: 18pt;
+    }
+
+    .theme-success {
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(0deg, rgb(42, 250, 153), rgb(25, 194, 155));
+        color: rgb(0, 0, 0);
+
+        &::placeholder {
+            color: #707070;
+            opacity: 0.7;
+        }
+
+        text-align: center;
+        padding: 3rem;
+        font-weight: 700;
+        font-size: 18pt;
+    }
+
+    .theme-primary {
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(0deg, rgb(46, 145, 232), rgb(25, 112, 211));
+        color: white;
+
+        &::placeholder {
+            color: #fff;
+            opacity: 0.7;
+        }
+
+        text-align: center;
+        padding: 3rem;
+        font-weight: 700;
+        font-size: 18pt;
+    }
+
+    .theme-gradient {
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(45deg, rgb(250, 113, 134), rgb(88, 143, 245), rgb(68, 204, 147), rgb(243, 226, 79));
+        color: rgb(255, 255, 255);
+
+        &::placeholder {
+            color: #fff;
+            opacity: 0.7;
+        }
+
+        text-align: center;
+        padding: 3rem;
+        font-weight: 700;
+        font-size: 18pt;
+    }
+
+}
+
+.ant-ribbon.ant-ribbon-placement-end.ant-ribbon-color-cyan.css-dev-only-do-not-override-12upa3x {
+    background: -webkit-linear-gradient(135deg, #7b6bdf, #d877e9, #e97097) !important;
+    opacity: 0.8 !important;
+
+    box-shadow: 1px 2px 5px rgb(137, 137, 137) !important;
+    border-top-left-radius: 25px !important;
+    border-bottom-left-radius: 25px !important;
+}
+
+.ant-card .ant-card-body {
+    padding: 24px;
+    border-radius: 0 0 8px 8px;
+    width: 100%;
+}
+
+
+
+.left-content {
+    width: 30%;
+    justify-content: center;
+    transition: all ease-in-out 0.3s;
+    height: 100%;
+    // background: url('../../../assets/images/left.png');
+    position: fixed;
+}
+
+.mid-content {
+    transition: all ease-in-out 0.3s;
+    width: 50%;
+    margin: auto;
+    padding: 0 0 3% 5%;
+    height: auto;
+    min-height: 95vh;
+}
+
+.right-content {
+    transition: all ease-in-out 0.3s;
+    width: 25%;
+    right: 0;
+    height: 100%;
+    position: fixed;
+    // background: url('../../../assets/images/right.png');
+}
+
+@media only screen and (max-width: 1240px) {
+
+    .left-content,
+    .right-content {
+        display: none;
+    }
+
+    .mid-content {
+        padding: 0;
+        margin: auto !important;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .mid-content {
+        min-width: 100%;
+    }
+}
+
+.ant-modal-content {
+    border-radius: 15px !important;
+}
+
+.d {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 7px auto;
+
+    i {
+        font-size: 15pt;
+        margin-right: 10px;
+    }
+}
+
+.label-tab {
+    font-size: 13pt;
+    color: rgb(101, 126, 173);
+    font-weight: 500;
+}
+
+.ant-tabs-tab-active {
+    .label-tab {
+        font-weight: 500;
+        color: #067ef5;
+    }
+}
+
+.ant-tabs-nav-wrap {
+    margin-left: 20px;
+}
