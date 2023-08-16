@@ -3,7 +3,7 @@ The NBlog website allows users to create posts, share images, comment, interact,
 
 # Development
 - The website is built primarily using JavaScript (JS) as the main language, based on the NodeJS platform.
-- BackEnd: JS language, mainly using frameworks like Express, utilizing MySQL as the database storage.
+- BackEnd: JS language, mainly using frameworks like Express, utilizing SQL as the database storage.
 - FrontEnd: Components are written using JS files, SCSS, utilizing the ReactJS framework. It offers authentication through services like Google login or email.
 - The website supports two main languages: Vietnamese and English.
 
