@@ -3,11 +3,6 @@ const bodyParser =  require('body-parser');
 const initWebRoutes =  require("./routes/api");
 const connectDB =  require('./config/connectDB');
 const cookie =  require('cookie-parser');
-// import express from 'express';
-// import bodyParser from 'body-parser';
-// import initWebRoutes from "./routes/api.js";
-// import connectDB from './config/connectDB.js';
-// import cookie from 'cookie-parser';
 
 require('dotenv').config();
 
